@@ -1,0 +1,7 @@
+created virtual environment CPython3.12.4.final.0-64 in 583ms
+  creator CPython3Posix(dest=/localscratch/indrisch.932334.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/indrisch/.local/share/virtualenv)
+    added seed packages: pip==24.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'vllm-requiremnts.txt'
+python: can't open file '/home/indrisch/vllm/vllm-example.py': [Errno 2] No such file or directory

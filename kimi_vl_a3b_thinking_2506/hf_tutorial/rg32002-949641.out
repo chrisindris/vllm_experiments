@@ -1,0 +1,555 @@
+created virtual environment CPython3.12.4.final.0-64 in 472ms
+  creator CPython3Posix(dest=/localscratch/indrisch.949641.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/indrisch/.local/share/virtualenv)
+    added seed packages: pip==25.1.1
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages (25.1.1)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing ./flash_attn-2.8.1+cu12torch2.7cxx11abiFALSE-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 37))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/aiohappyeyeballs-2.6.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 1))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/aiohttp-3.12.13+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 2))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/aiosignal-1.4.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 3))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/airportsdata-20250706+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 4))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/annotated_types-0.7.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 5))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/anyio-3.7.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 6))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/astor-0.8.1+computecanada-py2.py3-none-any.whl (from -r vllm_requirements_2.txt (line 7))
+Requirement already satisfied: asttokens==3.0.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 8)) (3.0.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/attrs-25.3.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 9))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/blake3-1.0.4+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 10))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/blobfile-3.0.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 11))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cachetools-6.1.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 12))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/certifi-2025.8.3+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 13))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/charset_normalizer-3.4.3+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 14))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/click-8.2.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 15))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/cloudpickle-3.1.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 16))
+Requirement already satisfied: comm==0.2.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 17)) (0.2.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/compressed_tensors-0.10.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 18))
+Requirement already satisfied: contourpy==1.3.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 19)) (1.3.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/cupy-13.3.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 20))
+Requirement already satisfied: cycler==0.12.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 21)) (0.12.1+computecanada)
+Requirement already satisfied: debugpy==1.8.12+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 22)) (1.8.12+computecanada)
+Requirement already satisfied: decorator==5.1.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 23)) (5.1.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/depyf-0.18.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 24))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/dill-0.4.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 25))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/diskcache-5.6.3+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 26))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/distro-1.9.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 27))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/dnspython-2.7.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 28))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/einops-0.8.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 29))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/email_validator-2.2.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 30))
+Requirement already satisfied: executing==2.2.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 31)) (2.2.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fastapi-0.116.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 32))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fastapi_cli-0.0.8+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 33))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fastapi_cloud_cli-0.1.5+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 34))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fastrlock-0.8.3+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 35))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/filelock-3.18.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 36))
+Requirement already satisfied: fonttools==4.55.8+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 38)) (4.55.8+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/frozenlist-1.7.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 39))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/fsspec-2025.7.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 40))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/gguf-0.17.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 41))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/h11-0.16.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 42))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/hf_xet-1.1.3+computecanada-cp37-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 43))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/httpcore-1.0.9+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 44))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/httptools-0.6.4+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 45))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/httpx-0.28.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 46))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/huggingface_hub-0.34.4+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 47))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/idna-3.10+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 48))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/interegular-0.3.3+computecanada-py37-none-any.whl (from -r vllm_requirements_2.txt (line 49))
+Requirement already satisfied: ipykernel==6.29.5+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 50)) (6.29.5+computecanada)
+Requirement already satisfied: ipython==8.32.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 51)) (8.32.0+computecanada)
+Requirement already satisfied: ipywidgets==8.1.5+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 52)) (8.1.5+computecanada)
+Requirement already satisfied: jedi==0.19.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 53)) (0.19.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.6+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 54))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/jiter-0.6.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 55))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jsonschema-4.25.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 56))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jsonschema_specifications-2025.4.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 57))
+Requirement already satisfied: jupyter_client==8.6.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 58)) (8.6.3+computecanada)
+Requirement already satisfied: jupyter_core==5.7.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 59)) (5.7.2+computecanada)
+Requirement already satisfied: jupyterlab_widgets==3.0.13+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 60)) (3.0.13+computecanada)
+Requirement already satisfied: kiwisolver==1.4.8+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 61)) (1.4.8+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/lark-1.2.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 62))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/llguidance-0.7.14+computecanada-cp39-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 63))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/llvmlite-0.44.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 64))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/lm_format_enforcer-0.10.12+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 65))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/lxml-5.3.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 66))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/markdown_it_py-3.0.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 67))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/MarkupSafe-3.0.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 68))
+Requirement already satisfied: matplotlib==3.10.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 69)) (3.10.0+computecanada)
+Requirement already satisfied: matplotlib_inline==0.1.7+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 70)) (0.1.7+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mdurl-0.1.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 71))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/mistral_common-1.8.3+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 72))
+Requirement already satisfied: mpmath==1.3.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 73)) (1.3.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/msgpack-1.1.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 74))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/msgspec-0.18.6+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 75))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/multidict-6.6.3+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 76))
+Requirement already satisfied: nest_asyncio==1.6.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 77)) (1.6.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/networkx-3.5+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 78))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/ninja-1.11.1+computecanada-py2.py3-none-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 79))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/numba-0.61.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 80))
+Requirement already satisfied: numpy==2.2.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 81)) (2.2.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/openai-1.90.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 82))
+Requirement already satisfied: opencv_contrib_python==4.11.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/opencv/4.11.0/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 83)) (4.11.0)
+Requirement already satisfied: opencv_contrib_python_headless==4.11.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/opencv/4.11.0/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 84)) (4.11.0)
+Requirement already satisfied: opencv_python==4.11.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/opencv/4.11.0/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 85)) (4.11.0)
+Requirement already satisfied: opencv_python_headless==4.11.0 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcc12/opencv/4.11.0/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 86)) (4.11.0)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/outlines-0.1.11+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 87))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/outlines_core-0.1.26+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 88))
+Requirement already satisfied: packaging==24.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 89)) (24.2+computecanada)
+Requirement already satisfied: pandas==2.2.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 90)) (2.2.3+computecanada)
+Requirement already satisfied: parso==0.8.4+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 91)) (0.8.4+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/partial_json_parser-0.2.1.1.post6+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 92))
+Requirement already satisfied: pexpect==4.9.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 93)) (4.9.0+computecanada)
+Requirement already satisfied: pillow==11.1.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 94)) (11.1.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/Pillow_SIMD-9.5.0.post2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 95))
+Requirement already satisfied: platformdirs==4.3.6+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 96)) (4.3.6+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/prometheus_client-0.22.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 97))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/prometheus_fastapi_instrumentator-7.1.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 98))
+Requirement already satisfied: prompt_toolkit==3.0.50+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 99)) (3.0.50+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/propcache-0.3.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 100))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/protobuf-6.31.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 101))
+Requirement already satisfied: psutil==6.1.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 102)) (6.1.1+computecanada)
+Requirement already satisfied: ptyprocess==0.7.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 103)) (0.7.0+computecanada)
+Requirement already satisfied: pure_eval==0.2.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 104)) (0.2.3+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/py_cpuinfo-9.0.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 105))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pybase64-1.4.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 106))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pycountry-24.6.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 107))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pycryptodomex-3.19.0+computecanada-cp35-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 108))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pydantic-2.11.7+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 109))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/pydantic_core-2.33.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 110))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/pydantic_extra_types-2.10.5+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 111))
+Requirement already satisfied: pygments==2.19.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 112)) (2.19.1+computecanada)
+Requirement already satisfied: pyparsing==3.2.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 113)) (3.2.1+computecanada)
+Requirement already satisfied: python_dateutil==2.9.0.post0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 114)) (2.9.0.post0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_dotenv-1.1.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 115))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_json_logger-3.3.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 116))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/python_multipart-0.0.20+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 117))
+Requirement already satisfied: pytz==2025.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 118)) (2025.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/PyYAML-6.0.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 119))
+Requirement already satisfied: pyzmq==26.2.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 120)) (26.2.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/ray-2.43.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 121))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/referencing-0.36.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 122))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/regex-2024.11.6+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 123))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/requests-2.32.4+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 124))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rich-14.1.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 125))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/rich_toolkit-0.15.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 126))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/rignore-0.6.2+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 127))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/rpds_py-0.21.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 128))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/safetensors-0.5.3+computecanada-cp38-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 129))
+Requirement already satisfied: scipy==1.15.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 130)) (1.15.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/sentencepiece-0.2.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 131))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sentry_sdk-2.34.1+computecanada-py2.py3-none-any.whl (from -r vllm_requirements_2.txt (line 132))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/setuptools-78.1.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 133))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/shellingham-1.5.4+computecanada-py2.py3-none-any.whl (from -r vllm_requirements_2.txt (line 134))
+Requirement already satisfied: six==1.17.0+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 135)) (1.17.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/sniffio-1.3.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 136))
+Requirement already satisfied: stack_data==0.6.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 137)) (0.6.3+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/starlette-0.47.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 138))
+Requirement already satisfied: sympy==1.13.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 139)) (1.13.3+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/tiktoken-0.9.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 140))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/tokenizers-0.21.1+computecanada-cp39-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 141))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torch-2.7.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 142))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/torchaudio-2.7.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 143))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/torchvision-0.22.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 144))
+Requirement already satisfied: tornado==6.4.2+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 145)) (6.4.2+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/tqdm-4.67.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 146))
+Requirement already satisfied: traitlets==5.14.3+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 147)) (5.14.3+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/transformers-4.53.2+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 148))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/triton-3.2.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 149))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typer-0.16.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 150))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_extensions-4.14.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 151))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/typing_inspection-0.4.1+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 152))
+Requirement already satisfied: tzdata==2025.1+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 153)) (2025.1+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/urllib3-2.5.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 154))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/uvicorn-0.35.0+computecanada-py3-none-any.whl (from -r vllm_requirements_2.txt (line 155))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/uvloop-0.20.0+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 156))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/vllm-0.9.2+computecanada-cp38-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 157))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/watchfiles-0.18.0+computecanada-cp37-abi3-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 158))
+Requirement already satisfied: wcwidth==0.2.13+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 159)) (0.2.13+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/websockets-15.0.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 160))
+Requirement already satisfied: widgetsnbextension==4.0.13+computecanada in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/ipykernel/2025a/lib/python3.12/site-packages (from -r vllm_requirements_2.txt (line 161)) (4.0.13+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/xformers-0.0.30+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 162))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic/xgrammar-0.1.19+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 163))
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3/yarl-1.20.1+computecanada-cp312-cp312-linux_x86_64.whl (from -r vllm_requirements_2.txt (line 164))
+Installing collected packages: triton, sentencepiece, py_cpuinfo, ninja, fastrlock, blake3, websockets, uvloop, urllib3, typing_extensions, tqdm, sniffio, shellingham, setuptools, safetensors, rpds_py, rignore, regex, PyYAML, python_multipart, python_json_logger, python_dotenv, pycryptodomex, pycountry, pybase64, protobuf, propcache, prometheus_client, Pillow_SIMD, partial_json_parser, networkx, multidict, msgspec, msgpack, mdurl, MarkupSafe, lxml, llvmlite, llguidance, lark, jiter, interegular, idna, httptools, hf_xet, h11, fsspec, frozenlist, filelock, einops, dnspython, distro, diskcache, dill, cupy, cloudpickle, click, charset_normalizer, certifi, cachetools, attrs, astor, annotated_types, airportsdata, aiohappyeyeballs, yarl, uvicorn, typing_inspection, sentry_sdk, requests, referencing, pydantic_core, numba, markdown_it_py, jinja2, httpcore, gguf, email_validator, depyf, blobfile, anyio, aiosignal, watchfiles, torch, tiktoken, starlette, rich, pydantic, jsonschema_specifications, huggingface_hub, httpx, aiohttp, xformers, typer, torchvision, torchaudio, tokenizers, rich_toolkit, pydantic_extra_types, prometheus_fastapi_instrumentator, openai, lm_format_enforcer, jsonschema, flash_attn, fastapi, transformers, ray, outlines_core, fastapi_cloud_cli, fastapi_cli, xgrammar, outlines, mistral_common, compressed_tensors, vllm
+
+Successfully installed MarkupSafe-3.0.2+computecanada Pillow_SIMD-9.5.0.post2+computecanada PyYAML-6.0.2+computecanada aiohappyeyeballs-2.6.1+computecanada aiohttp-3.12.13+computecanada aiosignal-1.4.0+computecanada airportsdata-20250706+computecanada annotated_types-0.7.0+computecanada anyio-3.7.1+computecanada astor-0.8.1+computecanada attrs-25.3.0+computecanada blake3-1.0.4+computecanada blobfile-3.0.0+computecanada cachetools-6.1.0+computecanada certifi-2025.8.3+computecanada charset_normalizer-3.4.3+computecanada click-8.2.1+computecanada cloudpickle-3.1.1+computecanada compressed_tensors-0.10.2+computecanada cupy-13.3.0+computecanada depyf-0.18.0+computecanada dill-0.4.0+computecanada diskcache-5.6.3+computecanada distro-1.9.0+computecanada dnspython-2.7.0+computecanada einops-0.8.1+computecanada email_validator-2.2.0+computecanada fastapi-0.116.1+computecanada fastapi_cli-0.0.8+computecanada fastapi_cloud_cli-0.1.5+computecanada fastrlock-0.8.3+computecanada filelock-3.18.0+computecanada flash_attn-2.8.1 frozenlist-1.7.0+computecanada fsspec-2025.7.0+computecanada gguf-0.17.1+computecanada h11-0.16.0+computecanada hf_xet-1.1.3+computecanada httpcore-1.0.9+computecanada httptools-0.6.4+computecanada httpx-0.28.1+computecanada huggingface_hub-0.34.4+computecanada idna-3.10+computecanada interegular-0.3.3+computecanada jinja2-3.1.6+computecanada jiter-0.6.1+computecanada jsonschema-4.25.0+computecanada jsonschema_specifications-2025.4.1+computecanada lark-1.2.2+computecanada llguidance-0.7.14+computecanada llvmlite-0.44.0+computecanada lm_format_enforcer-0.10.12+computecanada lxml-5.3.1+computecanada markdown_it_py-3.0.0+computecanada mdurl-0.1.2+computecanada mistral_common-1.8.3+computecanada msgpack-1.1.0+computecanada msgspec-0.18.6+computecanada multidict-6.6.3+computecanada networkx-3.5+computecanada ninja-1.11.1+computecanada numba-0.61.2+computecanada openai-1.90.0+computecanada outlines-0.1.11+computecanada outlines_core-0.1.26+computecanada partial_json_parser-0.2.1.1.post6+computecanada prometheus_client-0.22.1+computecanada prometheus_fastapi_instrumentator-7.1.0+computecanada propcache-0.3.2+computecanada protobuf-6.31.1+computecanada py_cpuinfo-9.0.0+computecanada pybase64-1.4.1+computecanada pycountry-24.6.1+computecanada pycryptodomex-3.19.0+computecanada pydantic-2.11.7+computecanada pydantic_core-2.33.2+computecanada pydantic_extra_types-2.10.5+computecanada python_dotenv-1.1.1+computecanada python_json_logger-3.3.0+computecanada python_multipart-0.0.20+computecanada ray-2.43.0+computecanada referencing-0.36.2+computecanada regex-2024.11.6+computecanada requests-2.32.4+computecanada rich-14.1.0+computecanada rich_toolkit-0.15.0+computecanada rignore-0.6.2+computecanada rpds_py-0.21.0+computecanada safetensors-0.5.3+computecanada sentencepiece-0.2.0+computecanada sentry_sdk-2.34.1+computecanada setuptools-78.1.0+computecanada shellingham-1.5.4+computecanada sniffio-1.3.1+computecanada starlette-0.47.2+computecanada tiktoken-0.9.0+computecanada tokenizers-0.21.1+computecanada torch-2.7.0+computecanada torchaudio-2.7.0+computecanada torchvision-0.22.0+computecanada tqdm-4.67.1+computecanada transformers-4.53.2+computecanada triton-3.2.0+computecanada typer-0.16.0+computecanada typing_extensions-4.14.1+computecanada typing_inspection-0.4.1+computecanada urllib3-2.5.0+computecanada uvicorn-0.35.0+computecanada uvloop-0.20.0+computecanada vllm-0.9.2+computecanada watchfiles-0.18.0+computecanada websockets-15.0.1+computecanada xformers-0.0.30+computecanada xgrammar-0.1.19+computecanada yarl-1.20.1+computecanada
+DEBUG 08-11 12:53:03 [__init__.py:31] No plugins for group vllm.platform_plugins found.
+DEBUG 08-11 12:53:03 [__init__.py:35] Checking if TPU platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:45] TPU platform is not available because: No module named 'libtpu'
+DEBUG 08-11 12:53:03 [__init__.py:52] Checking if CUDA platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:72] Confirmed CUDA platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:100] Checking if ROCm platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:114] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 08-11 12:53:03 [__init__.py:121] Checking if HPU platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:128] HPU platform is not available because habana_frameworks is not found.
+DEBUG 08-11 12:53:03 [__init__.py:138] Checking if XPU platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:148] XPU platform is not available because: No module named 'intel_extension_for_pytorch'
+DEBUG 08-11 12:53:03 [__init__.py:155] Checking if CPU platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:177] Checking if Neuron platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:52] Checking if CUDA platform is available.
+DEBUG 08-11 12:53:03 [__init__.py:72] Confirmed CUDA platform is available.
+INFO 08-11 12:53:03 [__init__.py:244] Automatically detected platform cuda.
+Step 1: Starting snapshot_download for model 'moonshotai/Kimi-VL-A3B-Thinking-2506' (local files only)...
+Step 1 complete: Model available at: /home/indrisch/.cache/huggingface/hub/models--moonshotai--Kimi-VL-A3B-Thinking-2506/snapshots/04caee9653ccfdd3d081ac436167cfaddd8dd9df
+Step 2: Initializing LLM...
+DEBUG 08-11 12:53:05 [__init__.py:39] Available plugins for group vllm.general_plugins:
+DEBUG 08-11 12:53:05 [__init__.py:41] - lora_filesystem_resolver -> vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+DEBUG 08-11 12:53:05 [__init__.py:44] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 08-11 12:53:11 [config.py:841] This model supports multiple tasks: {'classify', 'generate', 'embed', 'reward'}. Defaulting to 'generate'.
+INFO 08-11 12:53:11 [config.py:1472] Using max model len 131072
+DEBUG 08-11 12:53:11 [arg_utils.py:1692] Setting max_num_batched_tokens to 16384 for LLM_CLASS usage context.
+INFO 08-11 12:53:11 [config.py:2285] Chunked prefill is enabled with max_num_batched_tokens=16384.
+WARNING 08-11 12:53:12 [tokenizer.py:262] Using a slow tokenizer. This might cause a significant slowdown. Consider using a fast tokenizer instead.
+DEBUG 08-11 12:53:15 [__init__.py:31] No plugins for group vllm.platform_plugins found.
+DEBUG 08-11 12:53:15 [__init__.py:35] Checking if TPU platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:45] TPU platform is not available because: No module named 'libtpu'
+DEBUG 08-11 12:53:15 [__init__.py:52] Checking if CUDA platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:72] Confirmed CUDA platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:100] Checking if ROCm platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:114] ROCm platform is not available because: No module named 'amdsmi'
+DEBUG 08-11 12:53:15 [__init__.py:121] Checking if HPU platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:128] HPU platform is not available because habana_frameworks is not found.
+DEBUG 08-11 12:53:15 [__init__.py:138] Checking if XPU platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:148] XPU platform is not available because: No module named 'intel_extension_for_pytorch'
+DEBUG 08-11 12:53:15 [__init__.py:155] Checking if CPU platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:177] Checking if Neuron platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:52] Checking if CUDA platform is available.
+DEBUG 08-11 12:53:15 [__init__.py:72] Confirmed CUDA platform is available.
+INFO 08-11 12:53:15 [__init__.py:244] Automatically detected platform cuda.
+INFO 08-11 12:53:18 [core.py:526] Waiting for init message from front-end.
+DEBUG 08-11 12:53:18 [utils.py:545] HELLO from local core engine process 0.
+DEBUG 08-11 12:53:18 [core.py:534] Received init message: EngineHandshakeMetadata(addresses=EngineZmqAddresses(inputs=['ipc:///tmp/823acd4c-307d-487b-b9f4-f7d0ff33609e'], outputs=['ipc:///tmp/c19c20bf-1571-4932-a63e-96322ed953cb'], coordinator_input=None, coordinator_output=None, frontend_stats_publish_address=None), parallel_config={'data_parallel_master_ip': '127.0.0.1', 'data_parallel_master_port': 0, 'data_parallel_size': 1})
+DEBUG 08-11 12:53:18 [__init__.py:39] Available plugins for group vllm.general_plugins:
+DEBUG 08-11 12:53:18 [__init__.py:41] - lora_filesystem_resolver -> vllm.plugins.lora_resolvers.filesystem_resolver:register_filesystem_resolver
+DEBUG 08-11 12:53:18 [__init__.py:44] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 08-11 12:53:18 [core.py:69] Initializing a V1 LLM engine (v0.9.2) with config: model='/home/indrisch/.cache/huggingface/hub/models--moonshotai--Kimi-VL-A3B-Thinking-2506/snapshots/04caee9653ccfdd3d081ac436167cfaddd8dd9df', speculative_config=None, tokenizer='/home/indrisch/.cache/huggingface/hub/models--moonshotai--Kimi-VL-A3B-Thinking-2506/snapshots/04caee9653ccfdd3d081ac436167cfaddd8dd9df', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config={}, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=131072, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_backend=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=/home/indrisch/.cache/huggingface/hub/models--moonshotai--Kimi-VL-A3B-Thinking-2506/snapshots/04caee9653ccfdd3d081ac436167cfaddd8dd9df, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=True, chunked_prefill_enabled=True, use_async_output_proc=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[512,504,496,488,480,472,464,456,448,440,432,424,416,408,400,392,384,376,368,360,352,344,336,328,320,312,304,296,288,280,272,264,256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"max_capture_size":512,"local_cache_dir":null}
+DEBUG 08-11 12:53:18 [decorators.py:110] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.llama.LlamaModel'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+DEBUG 08-11 12:53:18 [decorators.py:110] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.llama_eagle3.LlamaModel'>: ['input_ids', 'positions', 'hidden_states']
+DEBUG 08-11 12:53:18 [__init__.py:2802] Methods determine_num_available_blocks,device_config,get_cache_block_size_bytes not implemented in <vllm.v1.worker.gpu_worker.Worker object at 0x149dfb9636e0>
+DEBUG 08-11 12:53:18 [config.py:4834] enabled custom ops: Counter()
+DEBUG 08-11 12:53:18 [config.py:4836] disabled custom ops: Counter()
+DEBUG 08-11 12:53:18 [parallel_state.py:919] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://10.83.100.102:56365 backend=nccl
+DEBUG 08-11 12:53:18 [parallel_state.py:970] Detected 1 nodes in the distributed environment
+INFO 08-11 12:53:18 [parallel_state.py:1076] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+WARNING 08-11 12:53:19 [tokenizer.py:262] Using a slow tokenizer. This might cause a significant slowdown. Consider using a fast tokenizer instead.
+DEBUG 08-11 12:53:19 [decorators.py:110] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.deepseek_v2.DeepseekV2Model'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+WARNING 08-11 12:53:21 [topk_topp_sampler.py:59] FlashInfer is not available. Falling back to the PyTorch-native implementation of top-p & top-k sampling. For the best performance, please install FlashInfer.
+DEBUG 08-11 12:53:21 [config.py:4834] enabled custom ops: Counter()
+DEBUG 08-11 12:53:21 [config.py:4836] disabled custom ops: Counter()
+INFO 08-11 12:53:21 [gpu_model_runner.py:1770] Starting to load model /home/indrisch/.cache/huggingface/hub/models--moonshotai--Kimi-VL-A3B-Thinking-2506/snapshots/04caee9653ccfdd3d081ac436167cfaddd8dd9df...
+INFO 08-11 12:53:21 [gpu_model_runner.py:1775] Loading model from scratch...
+INFO 08-11 12:53:22 [cuda.py:208] Using Triton MLA backend on V1 engine.
+DEBUG 08-11 12:53:22 [backends.py:39] Using InductorAdaptor
+DEBUG 08-11 12:53:22 [config.py:4834] enabled custom ops: Counter()
+DEBUG 08-11 12:53:22 [config.py:4836] disabled custom ops: Counter({'rms_norm': 82, 'silu_and_mul': 27, 'unquantized_fused_moe': 26, 'rotary_embedding': 1})
+Loading safetensors checkpoint shards:   0% Completed | 0/7 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  14% Completed | 1/7 [00:02<00:17,  2.90s/it]
+Loading safetensors checkpoint shards:  29% Completed | 2/7 [00:04<00:10,  2.07s/it]
+DEBUG 08-11 12:53:28 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Loading safetensors checkpoint shards:  43% Completed | 3/7 [00:06<00:08,  2.25s/it]
+Loading safetensors checkpoint shards:  57% Completed | 4/7 [00:09<00:07,  2.34s/it]
+Loading safetensors checkpoint shards:  71% Completed | 5/7 [00:11<00:04,  2.38s/it]
+Loading safetensors checkpoint shards:  86% Completed | 6/7 [00:14<00:02,  2.40s/it]
+DEBUG 08-11 12:53:38 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:16<00:00,  2.46s/it]
+Loading safetensors checkpoint shards: 100% Completed | 7/7 [00:16<00:00,  2.40s/it]
+
+INFO 08-11 12:53:39 [default_loader.py:272] Loading weights took 16.90 seconds
+INFO 08-11 12:53:39 [gpu_model_runner.py:1801] Model loading took 30.6141 GiB and 17.262823 seconds
+INFO 08-11 12:53:39 [gpu_model_runner.py:2238] Encoder cache will be initialized with a budget of 16384 tokens, and profiled with 12 image items of the maximum feature size.
+DEBUG 08-11 12:53:40 [decorators.py:204] Start compiling function <code object forward at 0x1047d6f0, file "/localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/models/deepseek_v2.py", line 684>
+DEBUG 08-11 12:53:47 [backends.py:461] Traced files (to be considered for compilation cache):
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/torch/_dynamo/polyfills/__init__.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/torch/nn/modules/container.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/torch/nn/modules/module.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/attention/layer.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/distributed/parallel_state.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/custom_op.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/activation.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/layer.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/layernorm.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/linear.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/rotary_embedding.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/utils.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/models/deepseek_v2.py
+DEBUG 08-11 12:53:47 [backends.py:461] /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/platforms/interface.py
+INFO 08-11 12:53:47 [backends.py:508] Using cache directory: /home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/backbone for vLLM's torch.compile
+INFO 08-11 12:53:47 [backends.py:519] Dynamo bytecode transform time: 7.47 s
+DEBUG 08-11 12:53:48 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:53:49 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:53:49 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+INFO 08-11 12:53:51 [backends.py:181] Cache the graph of shape None for later use
+DEBUG 08-11 12:53:51 [backends.py:183] store the 0-th graph for shape None from inductor via handle ('f532jryhzrhuftgmo4tgsvyclmnnc3ih7zm4rgzmsyg2h67inktr', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/ue/cueajmikz3hc3ubuzulyjit4vuxxdmwdcfkri3uqk45pohl7s5ti.py')
+DEBUG 08-11 12:53:52 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:53:52 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:53:55 [backends.py:183] store the 1-th graph for shape None from inductor via handle ('ffqibpmy7lwzpuaudkyqkinimgstwtbmob3zhgvueehcokq6zu4j', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/qc/cqczqzgmbfuohpx45qbferqvkhawo3upcp4zpqxtnqnkcnyrdo47.py')
+DEBUG 08-11 12:53:56 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:53:56 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.4 ms
+DEBUG 08-11 12:53:58 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:53:58 [backends.py:183] store the 2-th graph for shape None from inductor via handle ('ftldannzikc2zfth5ee4lu3ush5rr7e4v4fqoq4owgrfeekv2ycd', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/a3/ca3wam34egyqgdxufe6lqmdyznotlygqzq6nnjrcvuy3bbqcgyfu.py')
+DEBUG 08-11 12:53:59 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:53:59 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:53:59 [backends.py:183] store the 3-th graph for shape None from inductor via handle ('f7po2yq6hvlxxkwrhl5o4rojc4yspdy5z4evc6zb3sb6hqme3st2', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/hk/chkvalowwnuxt4myblxgvxggrjmmom2cewpgar4yzerpr7q7dohw.py')
+DEBUG 08-11 12:54:00 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:00 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:01 [backends.py:183] store the 4-th graph for shape None from inductor via handle ('fscnamvteh65e5ltppxhunj2awoqtsy7eey754jcufi7tbk2en34', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/4i/c4ipqps4dzvq34kbipj5jpcxtjbnyjjgyid426bjaadb5pmaimbl.py')
+DEBUG 08-11 12:54:01 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:01 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:02 [backends.py:183] store the 5-th graph for shape None from inductor via handle ('fcubyhs2k276buhyau4kxrfh6zrcqgdweyidgzrsyzytndbdw3iw', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/vu/cvups6qks3vbq2w5odbbrut5ujdxsubbejo4ukdrycpkhdg5l7db.py')
+DEBUG 08-11 12:54:03 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:03 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:03 [backends.py:183] store the 6-th graph for shape None from inductor via handle ('ftypqsviypr7ww6bsxto32axpacr34inkcsxjhmlfqr7vn4rgn63', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/xv/cxvcpwcx5ve5a4n3gxufyucljllralh5kse33ta6yi5c3tirokvh.py')
+DEBUG 08-11 12:54:04 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:04 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:05 [backends.py:183] store the 7-th graph for shape None from inductor via handle ('f4junzecahmmsv76nxgqkalxclklwtfajt26ltimjjj3frgjoot3', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/fn/cfnv5glg5rtmnk2v6wdbcju346npaadg4jqemx6dcz6cjrkoq7t2.py')
+DEBUG 08-11 12:54:06 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:06 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:06 [backends.py:183] store the 8-th graph for shape None from inductor via handle ('f2hqtbaypeoar7jeo2hd464dzlflturfrz5oa2gbrnr7jl34y5ym', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/fj/cfjioor3eybovvp5ju2urbzryr2ebz5guxamyuyw62r62vud5qiq.py')
+DEBUG 08-11 12:54:07 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:07 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.6 ms
+DEBUG 08-11 12:54:08 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:54:08 [backends.py:183] store the 9-th graph for shape None from inductor via handle ('ff6lq6ofhbplwmstzv67er6fq73d4snjio2jfb6yqcvngg47fgm6', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/su/csuasjbj5yjqwmfqgcr6m3vb54jbu35k7hecq5p46zwcdh6wrair.py')
+DEBUG 08-11 12:54:09 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:09 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:09 [backends.py:183] store the 10-th graph for shape None from inductor via handle ('fraszbs5x7kyjzurdvcmgl7kml3tcnrcmzpm27u5lrrqfoukb46b', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/ix/cixokjldlcieac24d7vxmwtchygxf5nixcz7flo2simap5wesibd.py')
+DEBUG 08-11 12:54:10 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:10 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:11 [backends.py:183] store the 11-th graph for shape None from inductor via handle ('f5nvdux647qnzr5qj3t5ik4jfqurnya27can4nrxb5ouofsco336', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/ll/cllnvg2avi4anpuatnzrgvzw3jdpltlirupilfckkog2sjeyrbv2.py')
+DEBUG 08-11 12:54:11 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:11 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:12 [backends.py:183] store the 12-th graph for shape None from inductor via handle ('f6oi7fhf6gxvdtiwfrgwtaygs2r6zplugt2pficytvkvfsrzwywg', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/gv/cgv4mo3ytxraiz42k34zd7wv4dfxgn6vjszagamywzbtq7lkkufh.py')
+DEBUG 08-11 12:54:13 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:13 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:13 [backends.py:183] store the 13-th graph for shape None from inductor via handle ('ftcsrmix4jirqoa6fhtvlidublta7ariiudeywqu4ql6gkc6udz5', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/vv/cvvkmce4how4wktayhlfumgrzsyz6uiilvwr36hpcauqfubd2ohi.py')
+DEBUG 08-11 12:54:14 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:14 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:15 [backends.py:183] store the 14-th graph for shape None from inductor via handle ('f2dpo6apfn5f6dj5u56jrqwlw2dstahbzrsvm3zdazp44nglw76f', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/4z/c4zgxjpwcosf5c6qp2yhuxffhfdcavfiozsmx2gksy5mexzyy3n4.py')
+DEBUG 08-11 12:54:16 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:16 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:16 [backends.py:183] store the 15-th graph for shape None from inductor via handle ('fhigsac2bprzpvk2bkojasps74wwi6ixf2vgaw6d67k57bxwe5eu', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/hm/chmin4xo7lf73m7vghmbwgyxlptvh4fv5vhflf6nshrjjttmoutc.py')
+DEBUG 08-11 12:54:17 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:17 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:17 [backends.py:183] store the 16-th graph for shape None from inductor via handle ('fxcnogxc4relby4ie44lgzowhd6qz6hs4tckfytxhpkuways5llb', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/wf/cwfsnuxxff5e722khsrsiknaz7k62remauouuk4iarawucegkcxc.py')
+DEBUG 08-11 12:54:18 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:54:19 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:19 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:19 [backends.py:183] store the 17-th graph for shape None from inductor via handle ('f7gg72mb4wy677vdcaovvefpfbley54vpxfkr75iut5brqbbphnl', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/fc/cfcu7uo774sevnldc7sexurwmdau4gvmw75mh2yoyn3n4iprkf47.py')
+DEBUG 08-11 12:54:20 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:20 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:21 [backends.py:183] store the 18-th graph for shape None from inductor via handle ('fpymrzdmswo3ya37vghnkfjkcl7mt4j3kyczr5bcfcz2kt766h5x', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/wp/cwpxpfrat5xgs4zdo3fygdkvqirqzxqv3e5rvjflktmdvusikq6g.py')
+DEBUG 08-11 12:54:21 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:21 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:22 [backends.py:183] store the 19-th graph for shape None from inductor via handle ('fm2ezs7n2vluw4p55dzf6udi5y4ii223k3ljbdgehddzogcuk4sg', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/sf/csflcluwkqcuuvrjs67ujclkk3n6df7nmpvoti4ffrf7wongwtxu.py')
+DEBUG 08-11 12:54:23 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:23 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:23 [backends.py:183] store the 20-th graph for shape None from inductor via handle ('figfh7bdd65b6p47yqgttmg7ftk7ebjb4lv654qwrzlbyqmf2kvx', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/fv/cfvfzr7h3wz6kuqtchzwd4ojyy4jfr7ztiovab6bwlgrnyz55wcp.py')
+DEBUG 08-11 12:54:24 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:24 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:25 [backends.py:183] store the 21-th graph for shape None from inductor via handle ('far3gj3yiq5ppwwxm7y6gcesyiq7732phc3phyya4utoxa3aheuw', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/55/c55ad63pwfcwll5wt7ozgomgpkwyiv45wwi7us2h2z4ors6drkph.py')
+DEBUG 08-11 12:54:25 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:25 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:26 [backends.py:183] store the 22-th graph for shape None from inductor via handle ('febwjoxau4gsdryktz3iurfefqivupxvu2opqx7ygruzxjo6ge6o', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/or/corb3n3qeccqbbqtsanzvovxtympjslexdhp736g6o5namwo7p6y.py')
+DEBUG 08-11 12:54:27 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:27 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:27 [backends.py:183] store the 23-th graph for shape None from inductor via handle ('f66e7nrlthao76dxxu7lnvwu7gizy5w7jzvvqgvuaxhsekirybpp', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/2d/c2de5l3gaep2tfql664upc3vledbd64ta6iccnsb77wo33dbngd3.py')
+DEBUG 08-11 12:54:28 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:54:28 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:28 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:29 [backends.py:183] store the 24-th graph for shape None from inductor via handle ('fcm3vdb2tvyyg6fhd44yl32c6rha6ljydnspsqpl2letigwv3yyf', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/dn/cdn5erejoxxxwf76tvbfcv3odp7ajzx2kofkyn53s6j4y5qpcuvx.py')
+DEBUG 08-11 12:54:30 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:30 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:31 [backends.py:183] store the 25-th graph for shape None from inductor via handle ('fi2uxedocrj5ox6khpq62plsxduyxg7yb27u3eanqe2zcful6mge', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/kl/cklgxfwhv24sljooojanuizt6oaw6x2c4uvd6sbg2lermdtdk522.py')
+DEBUG 08-11 12:54:31 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:31 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.3 ms
+DEBUG 08-11 12:54:32 [backends.py:183] store the 26-th graph for shape None from inductor via handle ('fyryzhbridhc4dnjdratnfzvk6uvklywdwml2jg5hdny4udrumxg', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/bh/cbhxpva3kyjxq5437xgic5u72k4cx5pcvyelum2nok6ozjwaa3ct.py')
+DEBUG 08-11 12:54:32 [fix_functionalization.py:104] De-functionalized 0 nodes, removed 0 nodes
+DEBUG 08-11 12:54:32 [vllm_inductor_pass.py:59] FixFunctionalizationPass completed in 0.2 ms
+DEBUG 08-11 12:54:33 [backends.py:183] store the 27-th graph for shape None from inductor via handle ('fshms2ojs26xropine6e56qgkriqmyczfjokrmnpzkmbcosxcxfo', '/home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/inductor_cache/on/con3bd5jhd3sy3mhbvnpephesmmw4ixafzrdm3ikphbgsy3ilh2p.py')
+INFO 08-11 12:54:33 [backends.py:193] Compiling a graph for general shape takes 44.75 s
+DEBUG 08-11 12:54:33 [backends.py:562] Computation graph saved to /home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/backbone/computation_graph.py
+DEBUG 08-11 12:54:38 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+DEBUG 08-11 12:54:40 [wrapper.py:111] Dynamo transformed code saved to /home/indrisch/.cache/vllm/torch_compile_cache/663f9ebaa7/rank_0_0/backbone/transformed_code.py
+WARNING 08-11 12:54:44 [fused_moe.py:690] Using default MoE config. Performance might be sub-optimal! Config file not found at /localscratch/indrisch.949641.0/env/lib/python3.12/site-packages/vllm/model_executor/layers/fused_moe/configs/E=64,N=1408,device_name=NVIDIA_H100_80GB_HBM3.json
+DEBUG 08-11 12:54:48 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+INFO 08-11 12:54:49 [monitor.py:34] torch.compile takes 52.22 s in total
+DEBUG 08-11 12:54:50 [gpu_worker.py:226] Initial free memory: 78.68 GiB, free memory: 47.63 GiB, requested GPU memory: 71.27 GiB
+DEBUG 08-11 12:54:50 [gpu_worker.py:231] Memory profiling takes 71.00 seconds. Total non KV cache memory: 33.23GiB; torch peak memory increase: 2.45GiB; non-torch forward increase memory: 0.17GiB; weights memory: 30.61GiB.
+INFO 08-11 12:54:50 [gpu_worker.py:232] Available KV cache memory: 38.04 GiB
+INFO 08-11 12:54:51 [kv_cache_utils.py:716] GPU KV cache size: 1,313,168 tokens
+INFO 08-11 12:54:51 [kv_cache_utils.py:720] Maximum concurrency for 131,072 tokens per request: 10.02x
+DEBUG 08-11 12:54:51 [config.py:4834] enabled custom ops: Counter()
+DEBUG 08-11 12:54:51 [config.py:4836] disabled custom ops: Counter({'rms_norm': 82, 'silu_and_mul': 27, 'unquantized_fused_moe': 26, 'rotary_embedding': 1})
+Capturing CUDA graph shapes:   0%|          | 0/67 [00:00<?, ?it/s]DEBUG 08-11 12:54:51 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 512
+DEBUG 08-11 12:54:51 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 512
+Capturing CUDA graph shapes:   1%|▏         | 1/67 [00:00<00:35,  1.85it/s]DEBUG 08-11 12:54:51 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 504
+DEBUG 08-11 12:54:51 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 504
+Capturing CUDA graph shapes:   3%|▎         | 2/67 [00:01<00:33,  1.91it/s]DEBUG 08-11 12:54:52 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 496
+DEBUG 08-11 12:54:52 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 496
+Capturing CUDA graph shapes:   4%|▍         | 3/67 [00:01<00:33,  1.92it/s]DEBUG 08-11 12:54:52 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 488
+DEBUG 08-11 12:54:52 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 488
+Capturing CUDA graph shapes:   6%|▌         | 4/67 [00:02<00:32,  1.94it/s]DEBUG 08-11 12:54:53 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 480
+DEBUG 08-11 12:54:53 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 480
+Capturing CUDA graph shapes:   7%|▋         | 5/67 [00:02<00:31,  1.94it/s]DEBUG 08-11 12:54:53 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 472
+DEBUG 08-11 12:54:53 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 472
+Capturing CUDA graph shapes:   9%|▉         | 6/67 [00:03<00:31,  1.94it/s]DEBUG 08-11 12:54:54 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 464
+DEBUG 08-11 12:54:54 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 464
+Capturing CUDA graph shapes:  10%|█         | 7/67 [00:03<00:30,  1.95it/s]DEBUG 08-11 12:54:54 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 456
+DEBUG 08-11 12:54:54 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 456
+Capturing CUDA graph shapes:  12%|█▏        | 8/67 [00:04<00:30,  1.95it/s]DEBUG 08-11 12:54:55 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 448
+DEBUG 08-11 12:54:55 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 448
+Capturing CUDA graph shapes:  13%|█▎        | 9/67 [00:04<00:29,  1.95it/s]DEBUG 08-11 12:54:55 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 440
+DEBUG 08-11 12:54:55 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 440
+Capturing CUDA graph shapes:  15%|█▍        | 10/67 [00:05<00:29,  1.96it/s]DEBUG 08-11 12:54:56 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 432
+DEBUG 08-11 12:54:56 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 432
+Capturing CUDA graph shapes:  16%|█▋        | 11/67 [00:05<00:28,  1.95it/s]DEBUG 08-11 12:54:56 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 424
+DEBUG 08-11 12:54:56 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 424
+Capturing CUDA graph shapes:  18%|█▊        | 12/67 [00:06<00:28,  1.96it/s]DEBUG 08-11 12:54:57 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 416
+DEBUG 08-11 12:54:57 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 416
+Capturing CUDA graph shapes:  19%|█▉        | 13/67 [00:06<00:27,  1.96it/s]DEBUG 08-11 12:54:57 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 408
+DEBUG 08-11 12:54:57 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 408
+DEBUG 08-11 12:54:58 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Capturing CUDA graph shapes:  21%|██        | 14/67 [00:07<00:27,  1.95it/s]DEBUG 08-11 12:54:58 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 400
+DEBUG 08-11 12:54:58 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 400
+Capturing CUDA graph shapes:  22%|██▏       | 15/67 [00:07<00:26,  1.95it/s]DEBUG 08-11 12:54:58 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 392
+DEBUG 08-11 12:54:58 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 392
+Capturing CUDA graph shapes:  24%|██▍       | 16/67 [00:08<00:26,  1.93it/s]DEBUG 08-11 12:54:59 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 384
+DEBUG 08-11 12:54:59 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 384
+Capturing CUDA graph shapes:  25%|██▌       | 17/67 [00:08<00:25,  1.93it/s]DEBUG 08-11 12:54:59 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 376
+DEBUG 08-11 12:54:59 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 376
+Capturing CUDA graph shapes:  27%|██▋       | 18/67 [00:09<00:25,  1.94it/s]DEBUG 08-11 12:55:00 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 368
+DEBUG 08-11 12:55:00 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 368
+Capturing CUDA graph shapes:  28%|██▊       | 19/67 [00:09<00:24,  1.95it/s]DEBUG 08-11 12:55:00 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 360
+DEBUG 08-11 12:55:00 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 360
+Capturing CUDA graph shapes:  30%|██▉       | 20/67 [00:10<00:24,  1.95it/s]DEBUG 08-11 12:55:01 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 352
+DEBUG 08-11 12:55:01 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 352
+Capturing CUDA graph shapes:  31%|███▏      | 21/67 [00:10<00:23,  1.95it/s]DEBUG 08-11 12:55:01 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 344
+DEBUG 08-11 12:55:02 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 344
+Capturing CUDA graph shapes:  33%|███▎      | 22/67 [00:11<00:23,  1.95it/s]DEBUG 08-11 12:55:02 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 336
+DEBUG 08-11 12:55:02 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 336
+Capturing CUDA graph shapes:  34%|███▍      | 23/67 [00:11<00:22,  1.94it/s]DEBUG 08-11 12:55:03 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 328
+DEBUG 08-11 12:55:03 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 328
+Capturing CUDA graph shapes:  36%|███▌      | 24/67 [00:12<00:22,  1.95it/s]DEBUG 08-11 12:55:03 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 320
+DEBUG 08-11 12:55:03 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 320
+Capturing CUDA graph shapes:  37%|███▋      | 25/67 [00:12<00:21,  1.95it/s]DEBUG 08-11 12:55:04 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 312
+DEBUG 08-11 12:55:04 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 312
+Capturing CUDA graph shapes:  39%|███▉      | 26/67 [00:13<00:21,  1.94it/s]DEBUG 08-11 12:55:04 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 304
+DEBUG 08-11 12:55:04 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 304
+Capturing CUDA graph shapes:  40%|████      | 27/67 [00:13<00:20,  1.95it/s]DEBUG 08-11 12:55:05 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 296
+DEBUG 08-11 12:55:05 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 296
+Capturing CUDA graph shapes:  42%|████▏     | 28/67 [00:14<00:20,  1.95it/s]DEBUG 08-11 12:55:05 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 288
+DEBUG 08-11 12:55:05 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 288
+Capturing CUDA graph shapes:  43%|████▎     | 29/67 [00:14<00:19,  1.94it/s]DEBUG 08-11 12:55:06 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 280
+DEBUG 08-11 12:55:06 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 280
+Capturing CUDA graph shapes:  45%|████▍     | 30/67 [00:15<00:19,  1.94it/s]DEBUG 08-11 12:55:06 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 272
+DEBUG 08-11 12:55:06 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 272
+Capturing CUDA graph shapes:  46%|████▋     | 31/67 [00:15<00:18,  1.93it/s]DEBUG 08-11 12:55:07 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 264
+DEBUG 08-11 12:55:07 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 264
+Capturing CUDA graph shapes:  48%|████▊     | 32/67 [00:16<00:18,  1.93it/s]DEBUG 08-11 12:55:07 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 256
+DEBUG 08-11 12:55:07 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 256
+DEBUG 08-11 12:55:08 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Capturing CUDA graph shapes:  49%|████▉     | 33/67 [00:16<00:17,  1.93it/s]DEBUG 08-11 12:55:08 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 248
+DEBUG 08-11 12:55:08 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 248
+Capturing CUDA graph shapes:  51%|█████     | 34/67 [00:17<00:17,  1.93it/s]DEBUG 08-11 12:55:08 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 240
+DEBUG 08-11 12:55:08 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 240
+Capturing CUDA graph shapes:  52%|█████▏    | 35/67 [00:18<00:16,  1.92it/s]DEBUG 08-11 12:55:09 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 232
+DEBUG 08-11 12:55:09 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 232
+Capturing CUDA graph shapes:  54%|█████▎    | 36/67 [00:18<00:16,  1.90it/s]DEBUG 08-11 12:55:09 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 224
+DEBUG 08-11 12:55:09 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 224
+Capturing CUDA graph shapes:  55%|█████▌    | 37/67 [00:19<00:15,  1.90it/s]DEBUG 08-11 12:55:10 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 216
+DEBUG 08-11 12:55:10 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 216
+Capturing CUDA graph shapes:  57%|█████▋    | 38/67 [00:19<00:15,  1.89it/s]DEBUG 08-11 12:55:10 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 208
+DEBUG 08-11 12:55:10 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 208
+Capturing CUDA graph shapes:  58%|█████▊    | 39/67 [00:20<00:14,  1.90it/s]DEBUG 08-11 12:55:11 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 200
+DEBUG 08-11 12:55:11 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 200
+Capturing CUDA graph shapes:  60%|█████▉    | 40/67 [00:20<00:14,  1.91it/s]DEBUG 08-11 12:55:11 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 192
+DEBUG 08-11 12:55:11 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 192
+Capturing CUDA graph shapes:  61%|██████    | 41/67 [00:21<00:13,  1.90it/s]DEBUG 08-11 12:55:12 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 184
+DEBUG 08-11 12:55:12 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 184
+Capturing CUDA graph shapes:  63%|██████▎   | 42/67 [00:21<00:13,  1.91it/s]DEBUG 08-11 12:55:12 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 176
+DEBUG 08-11 12:55:12 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 176
+Capturing CUDA graph shapes:  64%|██████▍   | 43/67 [00:22<00:12,  1.91it/s]DEBUG 08-11 12:55:13 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 168
+DEBUG 08-11 12:55:13 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 168
+Capturing CUDA graph shapes:  66%|██████▌   | 44/67 [00:22<00:12,  1.91it/s]DEBUG 08-11 12:55:13 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 160
+DEBUG 08-11 12:55:13 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 160
+Capturing CUDA graph shapes:  67%|██████▋   | 45/67 [00:23<00:11,  1.91it/s]DEBUG 08-11 12:55:14 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 152
+DEBUG 08-11 12:55:14 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 152
+Capturing CUDA graph shapes:  69%|██████▊   | 46/67 [00:23<00:10,  1.91it/s]DEBUG 08-11 12:55:15 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 144
+DEBUG 08-11 12:55:15 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 144
+Capturing CUDA graph shapes:  70%|███████   | 47/67 [00:24<00:10,  1.91it/s]DEBUG 08-11 12:55:15 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 136
+DEBUG 08-11 12:55:15 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 136
+Capturing CUDA graph shapes:  72%|███████▏  | 48/67 [00:24<00:09,  1.91it/s]DEBUG 08-11 12:55:16 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 128
+DEBUG 08-11 12:55:16 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 128
+Capturing CUDA graph shapes:  73%|███████▎  | 49/67 [00:25<00:09,  1.89it/s]DEBUG 08-11 12:55:16 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 120
+DEBUG 08-11 12:55:16 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 120
+Capturing CUDA graph shapes:  75%|███████▍  | 50/67 [00:25<00:08,  1.90it/s]DEBUG 08-11 12:55:17 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 112
+DEBUG 08-11 12:55:17 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 112
+Capturing CUDA graph shapes:  76%|███████▌  | 51/67 [00:26<00:08,  1.89it/s]DEBUG 08-11 12:55:17 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 104
+DEBUG 08-11 12:55:17 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 104
+DEBUG 08-11 12:55:18 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Capturing CUDA graph shapes:  78%|███████▊  | 52/67 [00:26<00:07,  1.89it/s]DEBUG 08-11 12:55:18 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 96
+DEBUG 08-11 12:55:18 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 96
+Capturing CUDA graph shapes:  79%|███████▉  | 53/67 [00:27<00:07,  1.89it/s]DEBUG 08-11 12:55:18 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 88
+DEBUG 08-11 12:55:18 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 88
+Capturing CUDA graph shapes:  81%|████████  | 54/67 [00:28<00:06,  1.90it/s]DEBUG 08-11 12:55:19 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 80
+DEBUG 08-11 12:55:19 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 80
+Capturing CUDA graph shapes:  82%|████████▏ | 55/67 [00:28<00:06,  1.90it/s]DEBUG 08-11 12:55:19 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 72
+DEBUG 08-11 12:55:19 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 72
+Capturing CUDA graph shapes:  84%|████████▎ | 56/67 [00:29<00:05,  1.89it/s]DEBUG 08-11 12:55:20 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 64
+DEBUG 08-11 12:55:20 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 64
+Capturing CUDA graph shapes:  85%|████████▌ | 57/67 [00:30<00:06,  1.50it/s]DEBUG 08-11 12:55:21 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 56
+DEBUG 08-11 12:55:21 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 56
+Capturing CUDA graph shapes:  87%|████████▋ | 58/67 [00:30<00:05,  1.61it/s]DEBUG 08-11 12:55:21 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 48
+DEBUG 08-11 12:55:21 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 48
+Capturing CUDA graph shapes:  88%|████████▊ | 59/67 [00:31<00:04,  1.69it/s]DEBUG 08-11 12:55:22 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 40
+DEBUG 08-11 12:55:22 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 40
+Capturing CUDA graph shapes:  90%|████████▉ | 60/67 [00:31<00:04,  1.75it/s]DEBUG 08-11 12:55:22 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 32
+DEBUG 08-11 12:55:22 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 32
+Capturing CUDA graph shapes:  91%|█████████ | 61/67 [00:32<00:03,  1.80it/s]DEBUG 08-11 12:55:23 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 24
+DEBUG 08-11 12:55:23 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 24
+Capturing CUDA graph shapes:  93%|█████████▎| 62/67 [00:32<00:02,  1.83it/s]DEBUG 08-11 12:55:23 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 16
+DEBUG 08-11 12:55:23 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 16
+Capturing CUDA graph shapes:  94%|█████████▍| 63/67 [00:33<00:02,  1.86it/s]DEBUG 08-11 12:55:24 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 8
+DEBUG 08-11 12:55:24 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 8
+Capturing CUDA graph shapes:  96%|█████████▌| 64/67 [00:33<00:01,  1.87it/s]DEBUG 08-11 12:55:24 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 4
+DEBUG 08-11 12:55:25 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 4
+Capturing CUDA graph shapes:  97%|█████████▋| 65/67 [00:34<00:01,  1.50it/s]DEBUG 08-11 12:55:25 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 2
+DEBUG 08-11 12:55:26 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 2
+Capturing CUDA graph shapes:  99%|█████████▊| 66/67 [00:35<00:00,  1.44it/s]DEBUG 08-11 12:55:26 [cuda_piecewise_backend.py:151] Warming up 1/1 for shape 1
+DEBUG 08-11 12:55:27 [cuda_piecewise_backend.py:162] Capturing a cudagraph for shape 1
+DEBUG 08-11 12:55:28 [utils.py:475] Waiting for 1 local, 0 remote core engine proc(s) to start.
+Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:37<00:00,  1.03it/s]Capturing CUDA graph shapes: 100%|██████████| 67/67 [00:37<00:00,  1.81it/s]
+INFO 08-11 12:55:28 [gpu_model_runner.py:2326] Graph capturing finished in 37 secs, took 0.93 GiB
+INFO 08-11 12:55:28 [core.py:172] init engine (profile, create kv cache, warmup model) took 108.73 seconds
+WARNING 08-11 12:55:28 [tokenizer.py:262] Using a slow tokenizer. This might cause a significant slowdown. Consider using a fast tokenizer instead.
+DEBUG 08-11 12:55:28 [utils.py:545] READY from local core engine process 0.
+DEBUG 08-11 12:55:28 [core.py:614] EngineCore waiting for work.
+DEBUG 08-11 12:55:28 [core.py:614] EngineCore waiting for work.
+Step 2 complete: LLM initialized in 143.17s
+Step 3: Loading processor...
+Step 3 complete: Processor loaded.
+Step 4: Creating sampling params...
+Step 4 complete: Sampling params ready.
+Step 5: Loading image from ./demo6.jpeg ...
+Step 5 complete: Image loaded. Size: (388, 388)
+Step 6: Preparing messages...
+Step 6 complete: Messages prepared.
+Step 7: Applying chat template...
+Step 7 complete: Chat template applied.
+Step 8: Starting generation...
+Adding requests:   0%|          | 0/1 [00:00<?, ?it/s]DEBUG 08-11 12:55:29 [decorators.py:110] Inferred dynamic dimensions for forward method of <class 'vllm.model_executor.models.deepseek_v2.DeepseekV2Model'>: ['input_ids', 'positions', 'intermediate_tensors', 'inputs_embeds']
+Adding requests: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]Adding requests: 100%|██████████| 1/1 [00:02<00:00,  2.30s/it]
+Processed prompts:   0%|          | 0/1 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]DEBUG 08-11 12:55:32 [core.py:620] EngineCore loop active.
+Processed prompts: 100%|██████████| 1/1 [00:04<00:00,  4.59s/it, est. speed input: 49.65 toks/s, output: 20.25 toks/s]Processed prompts: 100%|██████████| 1/1 [00:04<00:00,  4.59s/it, est. speed input: 49.65 toks/s, output: 20.25 toks/s]Processed prompts: 100%|██████████| 1/1 [00:04<00:00,  4.59s/it, est. speed input: 49.65 toks/s, output: 20.25 toks/s]
+Step 8 complete: Generation finished in 6.89s
+Step 9: Generated text length: 351
+Step 10: Parsing thinking and summary...
+Step 10 complete: Parsed thinking and summary.
+--------Thinking--------
+To determine the type of cat, observe its physical traits: long, thick fur; color pattern (gray and white on the face, white body); typical features of a Ragdoll cat. Ragdolls are known for their semi-long fur, colorpoint pattern (darker face, ears, legs; lighter body), and calm demeanor. This cat matches those characteristics.
+
+--------Summary--------
+Ragdoll
+All steps complete.
+DEBUG 08-11 12:55:36 [core.py:614] EngineCore waiting for work.
+DEBUG 08-11 12:55:36 [core.py:582] EngineCore exiting.
+[rank0]:[W811 12:55:37.659407719 ProcessGroupNCCL.cpp:1476] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())

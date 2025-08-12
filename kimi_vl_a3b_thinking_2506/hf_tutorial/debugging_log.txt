@@ -1,0 +1,28 @@
+Engine Core initialization failed:
+Methods tried and failed:
+
+1. 
+- increased memory to 64GB (model is ~35GB)
+
+
+2
+- increased memory to 64GB (model is ~35GB)
+- multiprocessing.set_start_method('spawn', force=True)
+
+
+RUNS TO COMPLETION!
+- vllm_requirements.txt from the cc_vllm_singlenode
+- increased memory to 64GB (model is ~35GB)
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
+- multiprocessing.set_start_method('spawn', force=True)
+- Wrap in if name == main 
+-- https://github.com/vllm-project/vllm/issues/17618#issuecomment-2900278048
+-- https://github.com/vllm-project/vllm/issues/17618#issuecomment-2910983912
+- setting multiprocessing before other imports
+
+
+To try (didn't need from previous though)
+- Import order: import VLLM before transformers
+- In environment:
+-- upgrade to later version of vllm
+-- older transformers version

@@ -1,0 +1,1 @@
+../../tutorials/cc_vllm_singlenode/vllm_requirements.txt

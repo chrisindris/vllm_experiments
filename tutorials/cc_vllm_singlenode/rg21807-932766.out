@@ -1,0 +1,10 @@
+created virtual environment CPython3.12.4.final.0-64 in 554ms
+  creator CPython3Posix(dest=/localscratch/indrisch.932766.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/indrisch/.local/share/virtualenv)
+    added seed packages: pip==24.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'vllm_requirements.txt'
+Traceback (most recent call last):
+  File "/lustre09/project/6062393/indrisch/vllm/vllm_example.py", line 1, in <module>
+    from vllm import LLM
+ModuleNotFoundError: No module named 'vllm'
