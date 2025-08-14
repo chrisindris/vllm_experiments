@@ -1,0 +1,12 @@
+created virtual environment CPython3.12.4.final.0-64 in 457ms
+  creator CPython3Posix(dest=/localscratch/indrisch.970083.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, via=copy, app_data_dir=/home/indrisch/.local/share/virtualenv)
+    added seed packages: pip==25.1.1
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /localscratch/indrisch.970083.0/env/lib/python3.12/site-packages (25.1.1)
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'vllm_requirements_2.txt'
+Traceback (most recent call last):
+  File "/lustre09/project/6062393/indrisch/vllm/kimi_vl_a3b_thinking_2506/kimivl_3d_test/kimivl_3d_test.py", line 3, in <module>
+    import torch.multiprocessing as mp
+ModuleNotFoundError: No module named 'torch'

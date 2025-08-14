@@ -204,9 +204,14 @@ def find_image_paths(questions: list, folder_path: str, sample_rate: int = 1):
     image_paths = []
     for question in questions:
         scene_name = question["video"]
-        scene_folder_path = os.path.join(
-            folder_path, scene_name, scene_name + "_sens", "color"
-        )
+        if os.path.isdir(os.path.join(folder_path, scene_name, scene_name + "_sens", "color")):
+            scene_folder_path = os.path.join(
+                folder_path, scene_name, scene_name + "_sens", "color"
+            )
+        else:
+            scene_folder_path = os.path.join(
+                folder_path, scene_name, "color"
+            )
         count = 0
         for filename in os.listdir(scene_folder_path):
             if filename.endswith(".jpg"):
@@ -239,7 +244,10 @@ def get_data(image_folder_path: str, scene: str, data_type: str = "rgb", sample_
     else:
         raise ValueError(f"Invalid image type: {data_type}")
         
-    data_dir = os.path.join(image_folder_path, scene, scene + "_sens", style["dir"])
+    if os.path.isdir(os.path.join(image_folder_path, scene, scene + "_sens", style["dir"])):
+        data_dir = os.path.join(image_folder_path, scene, scene + "_sens", style["dir"])
+    else:
+        data_dir = os.path.join(image_folder_path, scene, style["dir"])
     #data = [i for i in os.listdir(data_dir) if i.endswith(style["ext"])][::sample_rate]
     #breakpoint()
     #assert [int(i.split(".")[0]) for i in data] == list(range(0, len(data) * sample_rate, sample_rate)), "Images are not in order"
@@ -514,7 +522,11 @@ def main(
         torch.cuda.empty_cache()
         
         # Save output
+        # if the directory for export_json_path doesn't exist, create it
+        if not os.path.isdir(os.path.dirname(export_json_path)):
+            os.makedirs(os.path.dirname(export_json_path))
         save_output_json(output_text, question, export_json_path)
+
 
 if __name__ == "__main__":
     import argparse
